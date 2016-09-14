@@ -21,6 +21,7 @@ RUN set -x && \
       openssh \
       openssh-client \
       bash \
+      git \
     && rm -rf /var/cache/apk/*
 
 
