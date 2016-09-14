@@ -20,6 +20,7 @@ RUN set -x && \
       wget \
       openssh \
       openssh-client \
+      bash \
     && rm -rf /var/cache/apk/*
 
 
