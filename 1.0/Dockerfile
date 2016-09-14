@@ -18,6 +18,8 @@ RUN set -x && \
       nano \
       gcc \
       wget \
+      openssh \
+      openssh-client \
     && rm -rf /var/cache/apk/*
 
 
