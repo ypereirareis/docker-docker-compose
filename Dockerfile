@@ -1,4 +1,4 @@
-FROM tmaier/docker-compose
+FROM tmaier/docker-compose:19
 
 # Install tools...
 RUN set -x && \
